@@ -1,8 +1,7 @@
 import React from "react";
 import "./product.css";
-import { useSelector } from "react-redux";
 function Product() {
-  const item = useSelector((state) => state.selectedProduct);
+  const item = null;
 
   return (
     <div className="product">
